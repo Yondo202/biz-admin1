@@ -13,8 +13,8 @@
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
         "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yondo-627%40studied-acumen-288011.iam.gserviceaccount.com"
       },
-      "bucketName": "biz-news",
-      "baseUrl": "https://storage.googleapis.com/biz-news",
+      "bucketName": "biznews",
+      "baseUrl": "https://storage.googleapis.com/biznews",
       "basePath": "/",
       "publicFiles": true
     }
