@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bunner-1",
+      "handler": "bunner1.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bunner-1",
+      "handler": "bunner1.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bunner-1",
+      "handler": "bunner1.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -3,18 +3,18 @@
     "providerOptions": {
       "serviceAccount": {
         "type": "service_account",
-        "project_id": "studied-acumen-288011",
-        "private_key_id": "01ad64324312bc8844f2c10b0cdff0d277892c91",
-        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEXr054e2lAvfB\nqhh4/khgvtAEfhFH60Xrh0icMmQt7X2zM4QuLhtFcfLR9+rBOSxk5voITo4RnXxp\no5EwUnu78A0u6c6NUdeTieX78+pTwKtgqHsGtB4YoKFsQiIK405yjy3tPee0fJfn\nf6fJFgg1b2o5i94C+/v8BDkZpG59ElRg4yWXEcLtb5lCZkV0cavEMY5zTFUHb6Ll\n9iaPnexUhWbv60gJnlKlhIinTSxeux541jVAakI+8wFf3dEQpxaDrVMBj1+lQiB6\n2cnvX6QB3zgjBGdZXj++BcLXHj9IX60lXuqaOt2z+66k3+Qq8OmVNUw84KOFBRjx\nXicPIu8xAgMBAAECggEAAS+w/8oaNAKUKcFujj/mWDPxkJliCYJwb3ISMaQJ9WS8\n0JSULO2T4MPwYNgufPYstbuse9jc+a/EdOSV/Qn+hoiLzS0AlbDOdy0ggc4RLBTa\n+YWYYAETY82H9B4OfmzYSDpjtLjImc9H4VA6MgLgpVFT6F7shi2XXIgk/9STDffd\nPOl8m4Mne6Ij9ezd9JRYCehfHyVZuQLqEo+60bIjL0bkQz1Jw65d7kA/EfUzhJ1N\nE9pIRoUk0M/ZAa1AoSmW0Hxfmv4p1LNISGqGl2cqGMnbEUgPmZoiFIf4t/mkPBv0\nn3dqGiwn8ev6f1LiZQVZBEQW5ebZA07394irNP8fEQKBgQD5xOr8U3trmKXJ9g9B\nVcR7kmUpnAPcBiUhRQ41gAPVJM+uMuM54/3PiTdS0B8oxBcTFlNvs+Yh+fWpBYyK\nv56c/yWYXGxkiRvo1uYqxZ5BV4yXiYJsS2lrsepNAM1gt0xum5ypopdtHzdTNMlo\nCVxWUIg4LjMwDsRhztb8xJ23CQKBgQDJRM1rRZLJs4sVJHhJEkBgCryx4gYekfyy\nyS1QGv/YhX8qgl+dAwC6v/BSwG1XujnFIRRIINr8CNufrbkgHUV8UzaTV7926hKB\nw29+qeLmp/uJgLE0jOqiXkzDhIDnx8BiGQK1MQTWv2JlQ8OvwkP+zMVT3Gg2T6Fd\nogk+4BqY6QKBgQDmYsgp9Us7xTLvpoMNzfIN1cxwZBN/ST/If20K1kkyuuDCGvhT\ndsSwQS6Bua10KePq3EYcHAGjx2/c91xaw0OoJwVjk6T72yieTlNCksRWG054nQNr\npufXyeWIH7xRgOIEiI8qPeqVYhzjKCa7Sx8cEu6De8IFiymD2omd4DJmGQKBgQCO\nM+5vPFjZ6eD6rynNdvfE49EuXWO1da/1Ie7CClF5ydhvUG39oYGCcNp7nTmkIg9v\nGFAcJhqSuC90QmnqJsRRcvm8YOMGQZuR02OTOrT2AvnVzPdnCak9zyKtgZESMi/b\nH5CqNFgW4mHC6n34UGl6PXOuLKv0s45veWzO38frAQKBgAOR62WuggUUI+GZsbU5\nGFX9aOOpfV3sKtRUu/h9DGN+2pr2Ye56kMdOZkhe+nmR36j9JzK0rkbo8lGwwDmd\nMFSkpkrk0hOJrFXrExBneToGcLM8lQfvUqWFifZFDxFzmXZ30XzMeUylnIlW4D9v\nmpeQtFej40HWQOv2Tjc7Ov8X\n-----END PRIVATE KEY-----\n",
-        "client_email": "yondo-627@studied-acumen-288011.iam.gserviceaccount.com",
-        "client_id": "113761536623066623620",
+        "project_id": "tavan-bogd-group",
+        "private_key_id": "9eed92831d85b7718a7399742fbe945f8e60c365",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLQuRil0AH6NAQ\n3O4TK30Uqe2emWkU91S6s6H4ssfre4Wq2aaCfNjQT71AyFzQUHrMRI6nhWAoXyWX\nW3ICZm4piEXiuTOFLks9VcxcjPpv10JZhL1SUfaAUgB4A0PQLvgyXxwHMSsLSXcd\nUaJ++GyZ3qM78i8m3hF8zOvCQzJcVPzbzk+fJx2jO6TlyM2G4wypKAMiGIBcWB3B\nQyW6xIudBcBVkohWu7S6HLio/A2m6esRu/M7WkRumW106DJ6XBgCkS9Pjb2aVnSg\nIPuJ1HSpXzIq1AEVYavI99ZtYYd4W7GCOSJZg1vV1P0QA/p36sQ7QGmXUqaroaP6\nGrjJAvpPAgMBAAECggEAFLomhfM8gVH5Xa7ZzDSkFaZaZ9DnCU9LYZqNysmYX2gC\nMnDtbOMETQHEn8WOyWNbklbvYR/VtWg2ch/OGXaOh0exMLSID22wGHoWU93AcAU4\na96AW9Ol2mICUDqtAJ65ipFuT0FxTT5ZmjDH7ECy+mHcrXE9463DhMF0zSODEC0f\n5lI7bBxSElUtF+eHFUgEuzAYSdHztMhrfjGzSQrln2ifAv8zDX1KnwkDA+Wx3iHO\nYmrWl3cTLJoaxIgXO2WB2H+SsjbzVbQQFDK/JNrQqopVEsoaCSJdzguWgZSTnC71\nmIErl+6WtDQF+kw+wrCd8DHaKBQg9YetsE4Rys2YoQKBgQDuaqI+wmCS9BBjiXlS\nHHVEVtlFEO+u61IThKDzivKbD6RU1XT84/c6FM26wA0j7DvKBacJQNwtn3239D7b\nQqT3Cvu8FMPEHin1tTmSGRssW/wFPRgyzEzhDu+VKvkoL0C6p2wFbp5KrcswuuM6\nlhhChjCh/NEbCUVtaT3zL3X1XwKBgQDaQISthXxV8zDyVPhf17ZfRzSZcxlcT7sQ\ndQ0XE22g8LzDlLdNv7/qmiMhHeIqgvUNYzg7XhAgPqUjJhKnQkJwYCS++BK8NV5q\nwjDyUs7ny6UAEUZndnVnAACmMI3KPtsT/OcUrYV4BDG0zN1KSOPCONfDPUIIS6Yi\nuVKsqtmxEQKBgQDBq6OSYam7lkE96i3AUte7pOUn4qMhL41jx4hLbiK3bVRriV5Y\nFAL/jmi0fE/wT3UeHctbi/GPqhCg/uqUiCWjfKuTVDbWuD4Tl5xlnrlhJnOp+cAP\ne8AzzkM2pErzprbpKRlprDsvpM/7DMWLEOQyHfmhjNJ8KOLaBvTI+FPU9wKBgAC6\ntHbL+mVjIae9pvLTCrX4y/EzVENdtNdSPM/17ajbBRZ2OcKVwHNtPm7O5cGUnHMG\nANsZ7l3dN7oNV4SdkRFFEPpeY9mjKASdT4KPykc2BAAjDqQr3iqQ8m+bu+2QFjVT\n5AXKqqaDBROAl8C2y6QLgpURcFYMwqpdCiyviXixAoGANcddQqb6BfWvDpGBUMqZ\nX/EOgcB7C4xiqCCMHBrse+Y4ghmz9eXomS8Uvun2dHYEJmEfFO3LVZXCxYYAE81g\nvcKvG4pq/6G2BZ/S2JjHIdxvmyZMgYhg869PjQ13lS0Ql70sW0gYzhofL+4xlWC8\n/X23XOoj28FUNS9PGQtIblc=\n-----END PRIVATE KEY-----\n",
+        "client_email": "web-master@tavan-bogd-group.iam.gserviceaccount.com",
+        "client_id": "105656121506123047780",
         "auth_uri": "https://accounts.google.com/o/oauth2/auth",
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yondo-627%40studied-acumen-288011.iam.gserviceaccount.com"
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/web-master%40tavan-bogd-group.iam.gserviceaccount.com"
       },
-      "bucketName": "biznews",
-      "baseUrl": "https://storage.googleapis.com/biznews",
+      "bucketName": "biz-news",
+      "baseUrl": "https://storage.googleapis.com/biz-news",
       "basePath": "/",
       "publicFiles": true
     }

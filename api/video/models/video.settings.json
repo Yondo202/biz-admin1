@@ -42,6 +42,9 @@
     },
     "date": {
       "type": "date"
+    },
+    "filter": {
+      "type": "string"
     }
   }
 }

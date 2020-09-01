@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/video-bunner",
+      "handler": "video-bunner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/video-bunner",
+      "handler": "video-bunner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/video-bunner",
+      "handler": "video-bunner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

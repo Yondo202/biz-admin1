@@ -655,6 +655,9 @@
           },
           "date": {
             "type": "string"
+          },
+          "filter": {
+            "type": "string"
           }
         }
       },
@@ -670,6 +673,9 @@
             "type": "string"
           },
           "date": {
+            "type": "string"
+          },
+          "filter": {
             "type": "string"
           }
         }

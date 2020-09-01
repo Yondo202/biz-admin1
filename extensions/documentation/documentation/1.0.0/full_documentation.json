@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/30/2020 4:22:29 PM"
+    "x-generation-date": "09/01/2020 5:39:35 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -556,13 +556,13 @@
         ]
       }
     },
-    "/home-background": {
+    "/bunner-1": {
       "get": {
         "deprecated": false,
-        "description": "Find all the home-background's records",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve home-background document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
@@ -608,7 +608,7 @@
         },
         "summary": "",
         "tags": [
-          "Home-background"
+          "Bunner1"
         ],
         "parameters": [
           {
@@ -751,10 +751,10 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a single home-background record",
+        "description": "Update a record",
         "responses": {
           "200": {
-            "description": "Retrieve home-background document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
@@ -800,7 +800,7 @@
         },
         "summary": "",
         "tags": [
-          "Home-background"
+          "Bunner1"
         ],
         "requestBody": {
           "description": "",
@@ -808,7 +808,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewHome-background"
+                "$ref": "#/components/schemas/NewBunner1"
               }
             }
           }
@@ -817,10 +817,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a single home-background record",
+        "description": "Delete a record",
         "responses": {
           "200": {
-            "description": "deletes a single home-background based on the ID supplied",
+            "description": "deletes a single record based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -863,7 +863,319 @@
         },
         "summary": "",
         "tags": [
-          "Home-background"
+          "Bunner1"
+        ],
+        "parameters": []
+      }
+    },
+    "/bunner-2": {
+      "get": {
+        "deprecated": false,
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Bunner2"
+        ],
+        "parameters": [
+          {
+            "name": "_limit",
+            "in": "query",
+            "required": false,
+            "description": "Maximum number of results possible",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_sort",
+            "in": "query",
+            "required": false,
+            "description": "Sort according to a specific field.",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_start",
+            "in": "query",
+            "required": false,
+            "description": "Skip a specific number of entries (especially useful for pagination)",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "=",
+            "in": "query",
+            "required": false,
+            "description": "Get entries that matches exactly your input",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_ne",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are not equals to something",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lt",
+            "in": "query",
+            "required": false,
+            "description": "Get record that are lower than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are lower than or equal to a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gt",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than  or equal a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_contains",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_containss",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains (case sensitive) a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_in",
+            "in": "query",
+            "required": false,
+            "description": "Get records that matches any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_nin",
+            "in": "query",
+            "required": false,
+            "description": "Get records that doesn't match any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          }
+        ]
+      },
+      "put": {
+        "deprecated": false,
+        "description": "Update a record",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Bunner2"
+        ],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewBunner2"
+              }
+            }
+          }
+        },
+        "parameters": []
+      },
+      "delete": {
+        "deprecated": false,
+        "description": "Delete a record",
+        "responses": {
+          "200": {
+            "description": "deletes a single record based on the ID supplied",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int64"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Bunner2"
         ],
         "parameters": []
       }
@@ -1379,13 +1691,13 @@
         ]
       }
     },
-    "/video-background": {
+    "/video-bunner": {
       "get": {
         "deprecated": false,
-        "description": "Find all the video-background's records",
+        "description": "Find all the video-bunner's records",
         "responses": {
           "200": {
-            "description": "Retrieve video-background document(s)",
+            "description": "Retrieve video-bunner document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -1431,7 +1743,7 @@
         },
         "summary": "",
         "tags": [
-          "Video-background"
+          "Video-bunner"
         ],
         "parameters": [
           {
@@ -1574,10 +1886,10 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a single video-background record",
+        "description": "Update a single video-bunner record",
         "responses": {
           "200": {
-            "description": "Retrieve video-background document(s)",
+            "description": "Retrieve video-bunner document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -1623,7 +1935,7 @@
         },
         "summary": "",
         "tags": [
-          "Video-background"
+          "Video-bunner"
         ],
         "requestBody": {
           "description": "",
@@ -1631,7 +1943,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewVideo-background"
+                "$ref": "#/components/schemas/NewVideo-bunner"
               }
             }
           }
@@ -1640,10 +1952,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a single video-background record",
+        "description": "Delete a single video-bunner record",
         "responses": {
           "200": {
-            "description": "deletes a single video-background based on the ID supplied",
+            "description": "deletes a single video-bunner based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -1686,7 +1998,7 @@
         },
         "summary": "",
         "tags": [
-          "Video-background"
+          "Video-bunner"
         ],
         "parameters": []
       }
@@ -4501,6 +4813,9 @@
           },
           "date": {
             "type": "string"
+          },
+          "filter": {
+            "type": "string"
           }
         }
       },
@@ -4517,10 +4832,13 @@
           },
           "date": {
             "type": "string"
+          },
+          "filter": {
+            "type": "string"
           }
         }
       },
-      "Home-background": {
+      "Bunner1": {
         "required": [
           "id"
         ],
@@ -4528,7 +4846,10 @@
           "id": {
             "type": "string"
           },
-          "video": {
+          "title": {
+            "type": "string"
+          },
+          "image": {
             "required": [
               "id",
               "name",
@@ -4588,11 +4909,120 @@
                 "type": "string"
               }
             }
+          },
+          "nemelt": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
           }
         }
       },
-      "NewHome-background": {
-        "properties": {}
+      "NewBunner1": {
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "nemelt": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      },
+      "Bunner2": {
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "image": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              }
+            }
+          },
+          "nemelt": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      },
+      "NewBunner2": {
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "nemelt": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
       },
       "Posts": {
         "required": [
@@ -4696,7 +5126,7 @@
           }
         }
       },
-      "Video-background": {
+      "Video-bunner": {
         "required": [
           "id"
         ],
@@ -4704,7 +5134,10 @@
           "id": {
             "type": "string"
           },
-          "image": {
+          "title": {
+            "type": "string"
+          },
+          "video": {
             "required": [
               "id",
               "name",
@@ -4764,11 +5197,21 @@
                 "type": "string"
               }
             }
+          },
+          "url": {
+            "type": "string"
           }
         }
       },
-      "NewVideo-background": {
-        "properties": {}
+      "NewVideo-bunner": {
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
       },
       "Video": {
         "required": [
@@ -4914,6 +5357,9 @@
           },
           "date": {
             "type": "string"
+          },
+          "filter": {
+            "type": "string"
           }
         }
       },
@@ -4929,6 +5375,9 @@
             "type": "string"
           },
           "date": {
+            "type": "string"
+          },
+          "filter": {
             "type": "string"
           }
         }
@@ -5184,6 +5633,12 @@
   "tags": [
     {
       "name": "Audio"
+    },
+    {
+      "name": "Bunner1"
+    },
+    {
+      "name": "Bunner2"
     },
     {
       "name": "Posts"

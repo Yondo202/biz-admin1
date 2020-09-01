@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "bunner1_s",
+  "info": {
+    "name": "Bunner1"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "nemelt": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
