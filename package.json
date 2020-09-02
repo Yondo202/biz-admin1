@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "dotenv": "^8.2.0",
     "slugify": "^1.4.5",
     "strapi": "3.0.0-beta.20.3",
     "strapi-admin": "3.0.0-beta.20.3",
