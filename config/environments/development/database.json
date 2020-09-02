@@ -8,8 +8,9 @@
         "host": "cluster0.gsudq.mongodb.net",
         "srv": "true",
         "port": 27017,
-        "username": "biz-admin2",
-        "password": "killer951988"
+        "username": "Yondo",
+        "password": "killer951988",
+        "uri": "mongodb+srv://Yondo:<password>@cluster0.gsudq.mongodb.net/<biz-admin2>?retryWrites=true&w=majority"
       },
       "options": {
         "authenticationDatabase": "",
