@@ -2,15 +2,39 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/bunner-1",
+      "path": "/bunner-1-s",
       "handler": "bunner1.find",
       "config": {
         "policies": []
       }
     },
     {
+      "method": "GET",
+      "path": "/bunner-1-s/count",
+      "handler": "bunner1.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bunner-1-s/:id",
+      "handler": "bunner1.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bunner-1-s",
+      "handler": "bunner1.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
-      "path": "/bunner-1",
+      "path": "/bunner-1-s/:id",
       "handler": "bunner1.update",
       "config": {
         "policies": []
@@ -18,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/bunner-1",
+      "path": "/bunner-1-s/:id",
       "handler": "bunner1.delete",
       "config": {
         "policies": []

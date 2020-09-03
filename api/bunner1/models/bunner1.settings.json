@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "bunner1_s",
   "info": {
     "name": "Bunner1"
@@ -23,10 +23,10 @@
       "plugin": "upload",
       "required": false
     },
-    "nemelt": {
+    "url": {
       "type": "string"
     },
-    "url": {
+    "nemelt": {
       "type": "string"
     }
   }
