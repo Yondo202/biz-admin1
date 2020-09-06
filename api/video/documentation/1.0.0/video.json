@@ -653,20 +653,17 @@
               }
             }
           },
-          "sluga": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
             "type": "string"
           },
-          "videonews": {
-            "type": "string"
-          },
           "slug": {
             "type": "uid"
+          },
+          "path": {
+            "type": "string"
           }
         }
       },
@@ -678,20 +675,17 @@
           "desc": {
             "type": "string"
           },
-          "sluga": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
             "type": "string"
           },
-          "videonews": {
-            "type": "string"
-          },
           "slug": {
             "type": "uid"
+          },
+          "path": {
+            "type": "string"
           }
         }
       }

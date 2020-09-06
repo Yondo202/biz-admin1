@@ -47,7 +47,7 @@
       "type": "uid",
       "targetField": "title"
     },
-    "audionews": {
+    "path": {
       "type": "string"
     }
   }

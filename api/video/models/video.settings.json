@@ -37,21 +37,18 @@
       "plugin": "upload",
       "required": false
     },
-    "sluga": {
-      "type": "string"
-    },
     "date": {
       "type": "date"
     },
     "filter": {
       "type": "string"
     },
-    "videonews": {
-      "type": "string"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "path": {
+      "type": "string"
     }
   }
 }

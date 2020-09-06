@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/06/2020 12:19:51 PM"
+    "x-generation-date": "09/06/2020 12:57:06 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5648,7 +5648,7 @@
           "slug": {
             "type": "uid"
           },
-          "audionews": {
+          "path": {
             "type": "string"
           }
         }
@@ -5670,7 +5670,7 @@
           "slug": {
             "type": "uid"
           },
-          "audionews": {
+          "path": {
             "type": "string"
           }
         }
@@ -5949,9 +5949,6 @@
           "desc": {
             "type": "string"
           },
-          "sluga": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
@@ -6019,11 +6016,11 @@
               }
             }
           },
-          "postnews": {
-            "type": "string"
-          },
           "slug": {
             "type": "uid"
+          },
+          "path": {
+            "type": "string"
           }
         }
       },
@@ -6035,20 +6032,17 @@
           "desc": {
             "type": "string"
           },
-          "sluga": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
             "type": "string"
           },
-          "postnews": {
-            "type": "string"
-          },
           "slug": {
             "type": "uid"
+          },
+          "path": {
+            "type": "string"
           }
         }
       },
@@ -6365,20 +6359,17 @@
               }
             }
           },
-          "sluga": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
             "type": "string"
           },
-          "videonews": {
-            "type": "string"
-          },
           "slug": {
             "type": "uid"
+          },
+          "path": {
+            "type": "string"
           }
         }
       },
@@ -6390,20 +6381,17 @@
           "desc": {
             "type": "string"
           },
-          "sluga": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
             "type": "string"
           },
-          "videonews": {
-            "type": "string"
-          },
           "slug": {
             "type": "uid"
+          },
+          "path": {
+            "type": "string"
           }
         }
       },

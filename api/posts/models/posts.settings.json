@@ -15,9 +15,6 @@
     "desc": {
       "type": "richtext"
     },
-    "sluga": {
-      "type": "string"
-    },
     "date": {
       "type": "date"
     },
@@ -35,12 +32,12 @@
       "plugin": "upload",
       "required": false
     },
-    "postnews": {
-      "type": "string"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "path": {
+      "type": "string"
     }
   }
 }

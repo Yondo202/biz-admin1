@@ -659,7 +659,7 @@
           "slug": {
             "type": "uid"
           },
-          "audionews": {
+          "path": {
             "type": "string"
           }
         }
@@ -681,7 +681,7 @@
           "slug": {
             "type": "uid"
           },
-          "audionews": {
+          "path": {
             "type": "string"
           }
         }
