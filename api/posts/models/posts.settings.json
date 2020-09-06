@@ -15,8 +15,17 @@
     "desc": {
       "type": "richtext"
     },
-    "photos": {
-      "collection": "file",
+    "sluga": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "filter": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -26,14 +35,12 @@
       "plugin": "upload",
       "required": false
     },
+    "postnews": {
+      "type": "string"
+    },
     "slug": {
-      "type": "string"
-    },
-    "date": {
-      "type": "date"
-    },
-    "filter": {
-      "type": "string"
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

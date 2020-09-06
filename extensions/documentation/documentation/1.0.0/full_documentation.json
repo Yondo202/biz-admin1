@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/04/2020 11:13:36 AM"
+    "x-generation-date": "09/06/2020 12:19:51 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5639,13 +5639,16 @@
               }
             }
           },
-          "slug": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
+          },
+          "audionews": {
             "type": "string"
           }
         }
@@ -5658,13 +5661,16 @@
           "desc": {
             "type": "string"
           },
-          "slug": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
+          },
+          "audionews": {
             "type": "string"
           }
         }
@@ -5943,71 +5949,7 @@
           "desc": {
             "type": "string"
           },
-          "photos": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "hash",
-                "mime",
-                "size",
-                "url",
-                "provider"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "alternativeText": {
-                  "type": "string"
-                },
-                "caption": {
-                  "type": "string"
-                },
-                "width": {
-                  "type": "integer"
-                },
-                "height": {
-                  "type": "integer"
-                },
-                "formats": {
-                  "type": "object"
-                },
-                "hash": {
-                  "type": "string"
-                },
-                "ext": {
-                  "type": "string"
-                },
-                "mime": {
-                  "type": "string"
-                },
-                "size": {
-                  "type": "number"
-                },
-                "url": {
-                  "type": "string"
-                },
-                "previewUrl": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "provider_metadata": {
-                  "type": "object"
-                },
-                "related": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "slug": {
+          "sluga": {
             "type": "string"
           },
           "date": {
@@ -6015,6 +5957,73 @@
           },
           "filter": {
             "type": "string"
+          },
+          "image": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              }
+            }
+          },
+          "postnews": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
           }
         }
       },
@@ -6026,7 +6035,7 @@
           "desc": {
             "type": "string"
           },
-          "slug": {
+          "sluga": {
             "type": "string"
           },
           "date": {
@@ -6034,6 +6043,12 @@
           },
           "filter": {
             "type": "string"
+          },
+          "postnews": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
           }
         }
       },
@@ -6350,7 +6365,7 @@
               }
             }
           },
-          "slug": {
+          "sluga": {
             "type": "string"
           },
           "date": {
@@ -6358,6 +6373,12 @@
           },
           "filter": {
             "type": "string"
+          },
+          "videonews": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
           }
         }
       },
@@ -6369,7 +6390,7 @@
           "desc": {
             "type": "string"
           },
-          "slug": {
+          "sluga": {
             "type": "string"
           },
           "date": {
@@ -6377,6 +6398,12 @@
           },
           "filter": {
             "type": "string"
+          },
+          "videonews": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
           }
         }
       },

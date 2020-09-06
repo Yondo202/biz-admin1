@@ -37,13 +37,17 @@
       "plugin": "upload",
       "required": false
     },
-    "slug": {
-      "type": "string"
-    },
     "date": {
       "type": "date"
     },
     "filter": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "audionews": {
       "type": "string"
     }
   }

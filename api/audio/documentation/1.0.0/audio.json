@@ -650,13 +650,16 @@
               }
             }
           },
-          "slug": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
+          },
+          "audionews": {
             "type": "string"
           }
         }
@@ -669,13 +672,16 @@
           "desc": {
             "type": "string"
           },
-          "slug": {
-            "type": "string"
-          },
           "date": {
             "type": "string"
           },
           "filter": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid"
+          },
+          "audionews": {
             "type": "string"
           }
         }

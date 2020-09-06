@@ -4,16 +4,9 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "database": "biz-admin2",
-        "host": "cluster0.gsudq.mongodb.net",
-        "srv": "true",
-        "port": 27017,
-        "username": "Yondo",
-        "password": "killer951988",
-        "uri": "mongodb+srv://Yondo:<password>@cluster0.gsudq.mongodb.net/<biz-admin2>?retryWrites=true&w=majority"
+        "uri": "mongodb+srv://Yondo:killer951988@cluster0.gsudq.mongodb.net/biz-admin2?retryWrites=true&w=majority"
       },
       "options": {
-        "authenticationDatabase": "",
         "ssl": true
       }
     }

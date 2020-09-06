@@ -37,7 +37,7 @@
       "plugin": "upload",
       "required": false
     },
-    "slug": {
+    "sluga": {
       "type": "string"
     },
     "date": {
@@ -45,6 +45,13 @@
     },
     "filter": {
       "type": "string"
+    },
+    "videonews": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
