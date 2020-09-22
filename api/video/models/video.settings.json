@@ -15,17 +15,6 @@
     "desc": {
       "type": "richtext"
     },
-    "video": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -48,6 +37,9 @@
       "targetField": "title"
     },
     "path": {
+      "type": "string"
+    },
+    "video": {
       "type": "string"
     }
   }
