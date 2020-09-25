@@ -603,6 +603,9 @@
           },
           "video": {
             "type": "string"
+          },
+          "bulan": {
+            "type": "string"
           }
         }
       },
@@ -627,6 +630,9 @@
             "type": "string"
           },
           "video": {
+            "type": "string"
+          },
+          "bulan": {
             "type": "string"
           }
         }
