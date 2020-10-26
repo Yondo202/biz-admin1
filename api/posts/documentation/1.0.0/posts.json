@@ -600,6 +600,9 @@
           },
           "path": {
             "type": "string"
+          },
+          "desc2": {
+            "type": "string"
           }
         }
       },
@@ -621,6 +624,9 @@
             "type": "uid"
           },
           "path": {
+            "type": "string"
+          },
+          "desc2": {
             "type": "string"
           }
         }

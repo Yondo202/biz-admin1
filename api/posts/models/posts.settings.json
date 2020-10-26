@@ -38,6 +38,9 @@
     },
     "path": {
       "type": "string"
+    },
+    "desc2": {
+      "type": "string"
     }
   }
 }

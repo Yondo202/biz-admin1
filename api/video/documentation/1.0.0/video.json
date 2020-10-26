@@ -606,6 +606,9 @@
           },
           "bulan": {
             "type": "string"
+          },
+          "desc2": {
+            "type": "string"
           }
         }
       },
@@ -633,6 +636,9 @@
             "type": "string"
           },
           "bulan": {
+            "type": "string"
+          },
+          "desc2": {
             "type": "string"
           }
         }

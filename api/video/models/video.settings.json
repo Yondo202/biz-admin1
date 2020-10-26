@@ -44,6 +44,9 @@
     },
     "bulan": {
       "type": "string"
+    },
+    "desc2": {
+      "type": "string"
     }
   }
 }
