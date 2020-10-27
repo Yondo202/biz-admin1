@@ -4,7 +4,7 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "uri": "mongodb+srv://Yondo:killer951988@cluster0.gsudq.mongodb.net/biz-news?retryWrites=true&w=majority"
+        "uri": "mongodb+srv://Yondo:killer951988@cluster0.gsudq.mongodb.net/biz-admin?retryWrites=true&w=majority"
       },
       "options": {
         "ssl": true
