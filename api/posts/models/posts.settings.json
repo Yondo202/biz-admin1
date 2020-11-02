@@ -41,6 +41,20 @@
     },
     "desc2": {
       "type": "string"
+    },
+    "niitlegchNer": {
+      "type": "string"
+    },
+    "niitlegchZurag": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
