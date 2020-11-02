@@ -45,8 +45,8 @@
     "niitlegchNer": {
       "type": "string"
     },
-    "niitlegchZurag": {
-      "collection": "file",
+    "NiitlegchZurag": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
